@@ -10,7 +10,7 @@ contract MyTockenIRC20Basic is InterfaceIRC20{
 
     string public constant name= 'RocketERC20';
     string public constant symbol= 'Roc';
-    string public constant creator = 'Julian Ruiz';
+    string public constant creator = 'Andres Velasquez';
     uint8 public constant decimals= 2;
     uint256 totalSupply_;
     mapping (address => uint) balances;
